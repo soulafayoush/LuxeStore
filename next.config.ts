@@ -1,8 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Keep existing: standalone output for Docker/deployment
-  output: "standalone",
+
 
   // Enable React strict mode for catching potential issues
   reactStrictMode: true,
